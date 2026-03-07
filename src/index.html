@@ -1,13 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>DevOps App</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Welcome to DevOps Practice</h1>
-    <button onclick="showMessage()">Click Me</button>
+<title>DevOps Practice</title>
 
-    <script src="script.js"></script>
+<style>
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 16px;
+    background: #ff7a18;
+    background: linear-gradient(45deg, #ff7a18, #ffb347);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+<h1>Welcome to DevOps Practice</h1>
+<button>Click Me</button>
+</div>
+
 </body>
 </html>
