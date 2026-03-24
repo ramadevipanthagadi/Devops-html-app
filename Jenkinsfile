@@ -5,8 +5,8 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-               git branch: 'main', url: 'https://github.com/akramsyed8046/Devops-html-app.git'
-            }
+               git branch: 'main', url: 'https://github.com/ramadevipanthagadi/Devops-html-app.git'
+           }
         }
 
         stage('Build Docker Image') {
