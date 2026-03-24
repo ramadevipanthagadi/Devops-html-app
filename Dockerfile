@@ -1,7 +1,7 @@
-FROM nginx:latest
+FROM nginx:alpine
 
-COPY src/index.html /usr/share/nginx/html
+RUN rm -rf /usr/share/nginx/html/*
 
-EXPOSE 4000
+COPY . /usr/share/nginx/html/
 
-CMD ["nginx", "-g", "daemon off;"]
+EXPOSE 80
